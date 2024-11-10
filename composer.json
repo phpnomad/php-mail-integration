@@ -11,7 +11,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/rooted-phoenix/tests.git"
+            "url": "https://github.com/phpnomad/tests.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:phpnomad/email.git"
         }
     ],
     "autoload": {
@@ -30,8 +34,11 @@
             "email": "alex@standiford.us"
         }
     ],
+    "require": {
+        "phpnomad/email": "dev-main"
+    },
     "require-dev": {
-        "phoenix/tests": "^0.1.0"
+        "phpnomad/tests": "^0.1.0"
     },
     "config": {
         "allow-plugins": {
